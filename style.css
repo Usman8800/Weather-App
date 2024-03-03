@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
+    color: black;
 }
 
 html,
@@ -12,7 +12,11 @@ body {
 }
 
 body {
-    background: linear-gradient(to right,#2196F3, #4CAF50 );
+    /* background: linear-gradient(to right,#2196F3, #4CAF50 ); */
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/586/1015/659/silence-before-storm-wallpaper-preview.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #main {
@@ -25,10 +29,21 @@ body {
 }
 
 #card {
+    /* box-shadow: -8px 19px 20px 3px black; */
     height: 700px;
     width: 450px;
     border-radius: 12px;
-    background: linear-gradient(to right, #4CAF50, #2196F3);
+    /* background: linear-gradient(to right, #4CAF50, #2196F3); */
+
+}
+
+.glass {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
 
 }
 
